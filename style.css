@@ -41,7 +41,7 @@ body{
 }
 .main{
     display: flex;
-    gap: 10%;
+    gap: 15%;
 }
 #mainimg{
     width: 700px;
@@ -54,7 +54,7 @@ body{
     color: #D7082A;
 }
 input{
-    padding: 15px 150px;
+    padding: 15px 100px;
     border-radius: 30px;
     border-color: white;
 
@@ -75,6 +75,9 @@ input{
     padding: 10px 30px;
     border-radius: 20px;
    color: white;
+}
+.try{
+    display: flex;
 }
 
 
@@ -135,5 +138,9 @@ input{
     .text{
         font-size: 40px;
         color: #223A59;
+    }
+    .try{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
